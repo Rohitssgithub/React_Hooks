@@ -9,6 +9,7 @@ import { UseReducer } from './components/UseContext/UseContext'
 import Parent from './components/UseContext/Parent'
 import Todos from './components/UseReducer/UseReducerHook'
 import Todo from './components/Todo/Todo'
+import Com from "./components/customHook/Com"
 const App = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const App = () => {
       </UseReducer>
       <Todos></Todos>
     {/* <Todo></Todo> */}
+    <Com></Com>
 
 
     </>
